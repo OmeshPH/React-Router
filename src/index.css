@@ -21,9 +21,9 @@ body > div {
 }
 
 #main-section {
-  flex-grow: 1;
+  flex-grow: 5;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -36,13 +36,26 @@ body > div {
   padding: 2em;
 }
 
+.red, .blue, .green, .home {
+  background-color: #b05f6d; /* Replace with your desired color */
+  color: white;
+  height: 100vh; /* Set height to full viewport height */
+  width: 100%;
+}
+
 .red {
   background-color: #b05f6d;
   color: white;
+
 }
 
 .blue {
   background-color: #275db3;
+  color: white;
+}
+
+.green {
+  background-color: #27b366;
   color: white;
 }
 
