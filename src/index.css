@@ -32,3 +32,15 @@ body > div {
   background-color: #275db3;
   color: white;
 }
+
+.home {
+  background-color: lightblue;
+}
+
+.red {
+  background-color: lightcoral;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
